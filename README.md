@@ -1,3 +1,7 @@
 # NitroNodes Documentation
 
-[Site](https://docs.nitronodes.xyz)
+Documentation for NitroNodes, which is hosted [here](https://docs.nitronodes.xyz)
+
+## Contribute
+
+We are open for pull requests,

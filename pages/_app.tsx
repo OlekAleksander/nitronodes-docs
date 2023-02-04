@@ -3,6 +3,7 @@ import "../assets/css/styles.css";
 import "@fontsource/clear-sans/500.css";
 import { Router } from "next/router";
 import NProgress from "nprogress";
+import setCookie from "next-cookies";
 
 export default function Docs({ Component, pageProps }) {
   NProgress.configure({ showSpinner: false });
@@ -13,6 +14,7 @@ export default function Docs({ Component, pageProps }) {
   Router.events.on("routeChangeComplete", (url) => {
     NProgress.done(false);
   });
+  setCookie("theme", "dark");
   return (
     <>
       <Head>

@@ -4,6 +4,7 @@ specifiers:
   '@fontsource/clear-sans': ^4.5.3
   '@types/node': 18.11.10
   next: ^13.0.6
+  next-cookies: ^2.0.3
   nextra: 2.0.1
   nextra-theme-docs: 2.0.1
   nprogress: ^0.2.0
@@ -14,6 +15,7 @@ specifiers:
 dependencies:
   '@fontsource/clear-sans': 4.5.3
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
+  next-cookies: 2.0.3
   nextra: 2.0.1_6jx7hpii6hgsrmhxgqrmo3277u
   nextra-theme-docs: 2.0.1_6jx7hpii6hgsrmhxgqrmo3277u
   nprogress: 0.2.0
@@ -360,6 +362,10 @@ packages:
       '@types/estree': 1.0.0
     dev: false
 
+  /@types/cookie/0.3.3:
+    resolution: {integrity: sha512-LKVP3cgXBT9RYj+t+9FDKwS5tdI+rPBXaNSkma7hvqy35lc7mAokC2zsqWJH0LaqIt3B962nuYI77hsJoT1gow==}
+    dev: false
+
   /@types/debug/4.1.7:
     resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
     dependencies:
@@ -530,6 +536,11 @@ packages:
 
   /compute-scroll-into-view/1.0.20:
     resolution: {integrity: sha512-UCB0ioiyj8CRjtrvaceBLqqhZCVP+1B8+NWQhmdsm0VXOJtobBCf1dBQmebCCo34qZmUwZfIH2MZLqNHazrfjg==}
+    dev: false
+
+  /cookie/0.4.2:
+    resolution: {integrity: sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==}
+    engines: {node: '>= 0.6'}
     dev: false
 
   /cross-spawn/5.1.0:
@@ -1384,6 +1395,12 @@ packages:
     hasBin: true
     dev: false
 
+  /next-cookies/2.0.3:
+    resolution: {integrity: sha512-YVCQzwZx+sz+KqLO4y9niHH9jjz6jajlEQbAKfsYVT6DOfngb/0k5l6vFK4rmpExVug96pGag8OBsdSRL9FZhQ==}
+    dependencies:
+      universal-cookie: 4.0.4
+    dev: false
+
   /next-seo/5.14.1_6jx7hpii6hgsrmhxgqrmo3277u:
     resolution: {integrity: sha512-NiJeQbxYP3z+EMp52q8k3Q+OfX2+Yv2WehERDj98r2wjXxL+woKpRBdsSVYolTD0Hm8IWs42SzaISE93RoQdOw==}
     peerDependencies:
@@ -1939,6 +1956,13 @@ packages:
       '@types/unist': 2.0.6
       unist-util-is: 5.1.1
       unist-util-visit-parents: 5.1.1
+    dev: false
+
+  /universal-cookie/4.0.4:
+    resolution: {integrity: sha512-lbRVHoOMtItjWbM7TwDLdl8wug7izB0tq3/YVKhT/ahB4VDvWMyvnADfnJI8y6fSvsjh51Ix7lTGC6Tn4rMPhw==}
+    dependencies:
+      '@types/cookie': 0.3.3
+      cookie: 0.4.2
     dev: false
 
   /uvu/0.5.6:

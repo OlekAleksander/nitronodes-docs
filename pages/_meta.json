@@ -1,3 +1,15 @@
 {
-  "index": "Introduction"
+  "index": "Introduction",
+  "home": {
+    "title": "Home",
+    "type": "page",
+    "href": "https://www.nitronodes.xyz",
+    "newWindow": false
+  },
+  "panel": {
+    "title": "Control Panel",
+    "type": "page",
+    "href": "https://control.nitronodes.xyz",
+    "newWindow": true
+  }
 }

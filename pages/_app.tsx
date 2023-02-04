@@ -6,6 +6,10 @@ export default function Docs({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/assets/img/logo.ico" />
+        <meta
+          property="og:description"
+          content="The documentation for NitroNodes"
+        />
       </Head>
       <Component {...pageProps} />
     </>

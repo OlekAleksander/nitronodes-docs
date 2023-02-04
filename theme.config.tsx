@@ -1,6 +1,7 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const config: DocsThemeConfig = {
   logo: (
@@ -28,6 +29,12 @@ const config: DocsThemeConfig = {
     link: "https://nitronodes.xyz/discord",
   },
   primaryHue: 259,
+  useNextSeoProps() {
+    const { asPath } = useRouter();
+    return {
+      titleTemplate: "NitroNodes - %s",
+    };
+  },
 };
 
 export default config;

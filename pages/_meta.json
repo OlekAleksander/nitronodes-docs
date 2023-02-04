@@ -1,6 +1,7 @@
 {
   "index": "Introduction",
-
+  "server": "Server Management",
+  "deployment": "Deployment",
   "home": {
     "title": "Home",
     "type": "page",

@@ -1,3 +1,3 @@
 # NitroNodes Documentation
 
-(Site)[https://docs.nitronodes.xyz]
+[Site](https://docs.nitronodes.xyz)

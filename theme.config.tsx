@@ -35,7 +35,8 @@ const config: DocsThemeConfig = {
       titleTemplate: "NitroNodes - %s",
     };
   },
-  docsRepositoryBase: "https://github.com/OlekAleksander/nitronodes-docs/",
+  docsRepositoryBase:
+    "https://github.com/OlekAleksander/nitronodes-docs/blob/main/",
 };
 
 export default config;

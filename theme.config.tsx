@@ -8,9 +8,7 @@ const config: DocsThemeConfig = {
     <>
       <img
         alt="logo"
-        src={
-          "https://www.nitronodes.xyz/_next/image?url=%2Fassets%2Fimg%2Flogo.png&w=48&q=75"
-        }
+        src={"https://www.nitronodes.xyz/assets/img/logo.png"}
         width={32}
         height={32}
       />

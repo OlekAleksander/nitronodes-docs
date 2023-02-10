@@ -20,6 +20,17 @@ export default function Docs({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/assets/img/logo.ico" />
+        <meta property="og:locale" content="en_UK" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://docs.nitronodes.xyz" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_UK" />
+        <meta property="og:site_name" content="NitroNodes Documentation" />
+        <link rel="canonical" href="https://docs.nitronodes.xyz" />
+        <meta name="robots" content="index,follow" />
+        <meta property="og:title" content="NitroNodes Documentation" />
         <meta
           property="og:description"
           content="The documentation for NitroNodes"

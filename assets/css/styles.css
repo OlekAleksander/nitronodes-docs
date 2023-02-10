@@ -54,11 +54,25 @@ footer {
   border: none !important;
 }
 .nx-rounded-xl,
-.nx-shadow-xl {
-  background-color: #171923;
+.nx-shadow-xl,
+aside {
+  background-color: #171923 !important;
 }
 input:focus,
 input {
   background-color: #171923 !important;
   border: none !important;
+}
+
+.content {
+  opacity: 0;
+  background-color: "#171923";
+  transition: 0.4s;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+.nextra-hamburger {
+  transition-duration: 0s !important;
 }

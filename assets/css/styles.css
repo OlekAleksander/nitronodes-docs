@@ -2,6 +2,7 @@ body {
   font-family: "Clear Sans";
   background: #171923 !important;
   color: white;
+  transition-duration: 75ms;
 }
 
 footer {

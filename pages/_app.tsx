@@ -14,8 +14,9 @@ export default function Docs({ Component, pageProps }) {
   Router.events.on("routeChangeComplete", (url) => {
     NProgress.done(false);
   });
-  //@ts-ignore
+ 
 useEffect(() => {
+ //@ts-ignore
     setCookie("theme", "dark");
   }, []);
   

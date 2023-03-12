@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ThemeProvider } from 'next-themes';
 import "../assets/css/styles.css";
 import "@fontsource/clear-sans/500.css";
 import { Router } from "next/router";

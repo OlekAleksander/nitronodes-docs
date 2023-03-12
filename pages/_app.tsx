@@ -4,7 +4,7 @@ import "@fontsource/clear-sans/500.css";
 import { Router } from "next/router";
 import NProgress from "nprogress";
 import setCookie from "next-cookies";
-
+import useEffect from "react";
 export default function Docs({ Component, pageProps }) {
   NProgress.configure({ showSpinner: false });
   Router.events.on("routeChangeStart", (url) => {
@@ -15,7 +15,10 @@ export default function Docs({ Component, pageProps }) {
     NProgress.done(false);
   });
   //@ts-ignore
+  useEffect(()=>{
   setCookie("theme", "dark");
+  },[])
+  
   return (
     <>
       <Head>

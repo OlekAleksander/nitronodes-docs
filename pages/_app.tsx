@@ -1,5 +1,4 @@
 import Head from "next/head";
-import React, { useState, useEffect } from 'react';
 import "../assets/css/styles.css";
 import "@fontsource/clear-sans/500.css";
 import { Router } from "next/router";

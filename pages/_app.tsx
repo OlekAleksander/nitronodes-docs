@@ -40,7 +40,9 @@ useEffect(() => {
           content="The documentation for NitroNodes"
         />
       </Head>
+       <ThemeProvider forcedTheme={"dark"}>
       <Component {...pageProps} />
+      </ThemeProvider/>
     </>
   );
 }

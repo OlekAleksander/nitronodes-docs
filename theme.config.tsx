@@ -23,7 +23,7 @@ const config: DocsThemeConfig = {
     prev: true,
     next: true,
   },
-  darkMode: false,
+  darkMode: true,
   chat: {
     link: "https://nitronodes.xyz/discord",
   },

@@ -40,3 +40,4 @@ export default function Docs({ Component, pageProps }) {
     </>
   );
 }
+Docs.theme = 'dark'

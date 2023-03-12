@@ -42,8 +42,8 @@ useEffect(() => {
         />
       </Head>
        <ThemeProvider forcedTheme={"dark"}>
-      <Component {...pageProps} />
-      </ThemeProvider/>
+          <Component {...pageProps} />
+      <ThemeProvider/>
     </>
   );
 }
